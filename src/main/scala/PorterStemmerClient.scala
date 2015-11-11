@@ -18,8 +18,8 @@ object PorterStemmerClient {
       val words = line.split(" ")
       words.foreach(w => {
         println(w)
-        // println(stem(w))
-        // writer.write(stem(w))
+        println(stem(w))
+        writer.write(stem(w))
       })
     }
     writer.close()
